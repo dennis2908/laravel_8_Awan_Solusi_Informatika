@@ -11,8 +11,8 @@
 - php artisan key:generate </br>
 - php artisan optimize</br>
 - php artisan optimize:clear</br>
-- php artisan serve </br>
 - php artisan migrate --seed </br>
+- php artisan serve </br>
 
 # Postman : </br>
 
