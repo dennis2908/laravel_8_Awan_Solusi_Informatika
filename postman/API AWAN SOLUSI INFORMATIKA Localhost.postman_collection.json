@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "54cfd84b-3b10-404d-8240-32a1de26adb1",
+		"name": "API AWAN SOLUSI INFORMATIKA Localhost",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Currency Code And Name",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE2NTI2MjIxNjIsIm5iZiI6MTY1MjYyMjE2MiwianRpIjoibHFRRzk5M1Z4VUE1eFJwMCIsInN1YiI6MywicHJ2IjoiYmExY2I2NjhlNGIyY2IyMWMwZGY0OTEyMGQ3NTI3Y2EyNzEwOGUyMiJ9.THCi2FDwj3B0Zdf8YWrecW70OXXDO11xMsJVQKijEBE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/currencies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"currencies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "dana88",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "dana88",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/user/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Current Currency Code",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE2NTI2MjIxNjIsIm5iZiI6MTY1MjYyMjE2MiwianRpIjoibHFRRzk5M1Z4VUE1eFJwMCIsInN1YiI6MywicHJ2IjoiYmExY2I2NjhlNGIyY2IyMWMwZGY0OTEyMGQ3NTI3Y2EyNzEwOGUyMiJ9.THCi2FDwj3B0Zdf8YWrecW70OXXDO11xMsJVQKijEBE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/currency/AGLD",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"currency",
+						"AGLD"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
