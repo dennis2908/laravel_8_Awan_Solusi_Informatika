@@ -1,7 +1,7 @@
 # Instalation localhost: </br>
 
 - install composer,laravel 8.31.0, php 7.3 64 Bit</br>
-- git clone https://github.com/dennis2908/ </br>
+- git clone https://github.com/dennis2908/laravel_8_Awan_Solusi_Informatika </br>
 - open cmd and then type composer install </br>
 - Delete file .env <br>
 - Rename file .env.mysql to .env<br>
