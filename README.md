@@ -7,6 +7,7 @@
 - Rename file .env.mysql to .env<br>
 - Open file .env and edit DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, </br>
    DB_PASSWORD to mysql local<br>
+- composer install </br>   
 - php artisan key:generate </br>
 - php artisan optimize</br>
 - php artisan optimize:clear</br>
